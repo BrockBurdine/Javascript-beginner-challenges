@@ -1,5 +1,10 @@
-function lessThanOrEqualToZero(num1) {
-  return num1 <= 0;
+function oppositeBoolean(bool) {
+if (bool === false) {
+  return true
+}
+else {
+  return false
+}
 }
 
-console.log(lessThanOrEqualToZero(0));
+console.log(oppositeBoolean(false));
