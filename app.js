@@ -1,10 +1,4 @@
 function oppositeBoolean(bool) {
-if (bool === false) {
-  return true
+return !bool;
 }
-else {
-  return false
-}
-}
-
 console.log(oppositeBoolean(false));
