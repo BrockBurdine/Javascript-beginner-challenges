@@ -1,4 +1,4 @@
-function oppositeBoolean(bool) {
-return !bool;
+function isNotZero(num1) {
+return num1 !== 0
 }
-console.log(oppositeBoolean(false));
+console.log(isNotZero());
