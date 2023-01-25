@@ -1,4 +1,4 @@
-function calcRemainder(num1, num2) {
-return num1 % num2
+function isLoggedInAndSubscribed(loggedIn, subscribed) {
+    return (loggedIn === "LOGGED_IN" || subscribed === "SUBSCRIBED") 
 }
-console.log(calcRemainder(9, 8));
+console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"));
